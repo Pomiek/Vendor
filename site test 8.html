@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Site</title>
+    <style>
+        /* Add your custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-logo {
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .category {
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            font-size: 24px; /* Double font size for main category */
+            color: #fff;
+        }
+
+        .sub-category-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 3px;
+            font-size: 14px; /* Font size for subcategories */
+            color: #333; /* Darker color for subcategories */
+            text-align: center;
+        }
+
+        .product-image {
+            width: 200px; /* Set the width of the image */
+            height: 300px; /* Calculate height for a 2:3 aspect ratio (200x2=400, 400/3=133.33) */
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+
+        .background-image {
+            width: 400px;
+            height: 600px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 5px;
+            margin: 20px auto;
+        }
+
+        /* Custom colors for head categories */
+        .anime-shirt {
+            background-color: red;
+        }
+
+        .keychains {
+            background-color: blue;
+        }
+
+        .collectibles {
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Vendor Site</h1>
+        <div class="hero-logo"></div>
+    </header>
+    <nav>
+        <a href="#anime-shirt" class="category anime-shirt">Anime Shirt</a>
+        <a href="#keychains" class="category keychains">Keychains</a>
+        <a href="#collectibles" class="category collectibles">Collectibles</a>
+        <div class="category">Category 4</div>
+        <div class="category">Category 5</div>
+    </nav>
+    <section>
+        <h2 id="anime-shirt">Anime Shirt</h2>
+        <div class="background-image" style="background-image: url('https://r2.stablediffusionweb.com/images/stable-diffusion-demo-2.webp');"></div>
+
+        <div class="sub-category-container">
+            <img src="https://mir-s3-cdn-cf.behance.net/projects/404/5ab060173478191.Y3JvcCwyODc4LDIyNTEsMTYzLDcx.jpg" alt="Anime Shirt Image 1" class="product-image">
+            <div class="sub-category">Anime Shirt 1</div>
+        </div>
+
+        <div class="sub-category-container">
+            <img src="anime-shirt-image2.jpg" alt="Anime Shirt Image 2" class="product-image">
+            <div class="sub-category">Anime Shirt 2</div>
+        </div>
+
+        <div class="sub-category-container">
+            <img src="anime-shirt-image3.jpg" alt="Anime Shirt Image 3" class="product-image">
+            <div class="sub-category">Anime Shirt 3</div>
+        </div>
+
+        <div class="sub-category-container">
+            <img src="anime-shirt-image4.jpg" alt="Anime Shirt Image 4" class="product-image">
+            <div class="sub-category">Anime Shirt 4</div>
+        </div>
+
+        <div class="sub-category-container">
+            <img src="anime-shirt-image5.jpg" alt="Anime Shirt Image 5" class="product-image">
+            <div class="sub-category">Anime Shirt 5</div>
+        </div>
+
+        <h2 id="keychains">Keychains</h2>
+        <div class="background-image" style="background-image: url('keychains-bg.jpg');"></div>
+
+        <div class="sub-category-container">
+            <img src="keychain-image.jpg" alt="Keychain Image 1" class="product-image">
+            <div class="sub-category">Keychains 1</div>
+        </div>
+
+        <div class="sub-category-container">
+            <img src="keychain-image2.jpg" alt="Keychain Image 2" class="product-image">
+            <div class="sub-category">Keychains 2</div>
+        </div>
+
+        <div class="sub-category-container">
+            <img src="keychain-image3.jpg" alt="Keychain Image 3" class="product-image">
+            <div class="sub-category">Keychains 3</div>
+        </div>
+
+        <div class="sub-category-container">
+            <img src="keychain-image4.jpg" alt="Keychain Image 4" class="product-image">
+            <div class="sub-category">Keychains 4</div>
+        </div>
+
+        <div class="sub-category-container">
+            <img src="keychain-image5.jpg" alt="Keychain Image 5" class="product-image">
+            <div class="sub-category">Keychains 5</div>
+        </div>
+
+        <h2 id="collectibles">Collectibles</h2>
+        <div class="background-image" style="background-image: url('collectibles-bg.jpg');"></div>
+
+        <div class="sub-category-container">
+            <img src="collectible-image.jpg" alt="Collectible Image 1" class="product-image">
+            <div class="sub-category">Collectibles 1</div>
+        </div>
+
+        <div class="sub-category-container">
+            <img src="collectible-image2.jpg" alt="Collectible Image 2" class="product-image">
+            <div class="sub-category">Collectibles 2</div>
+        </div>
+
+        <div class="sub-category-container">
+            <img src="collectible-image3.jpg" alt="Collectible Image 3" class="product-image">
+            <div class="sub-category">Collectibles 3</div>
+        </div>
+
+        <div class="sub-category-container">
+            <img src="collectible-image4.jpg" alt="Collectible Image 4" class="product
